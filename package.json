@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\"",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/node": "^22.4.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5"
+  }
+}
